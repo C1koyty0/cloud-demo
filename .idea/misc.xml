@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/Eureka-Registry/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-biz-1/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-biz-2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
