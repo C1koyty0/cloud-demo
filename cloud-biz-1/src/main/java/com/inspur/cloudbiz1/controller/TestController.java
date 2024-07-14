@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * TODO
  *
@@ -15,8 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("list")
-    public String list() {
+    public String list() throws InterruptedException {
         Student student = new Student();
+        TimeUnit.SECONDS.sleep(6);
         return student.setAge(17).setName("Test").setId(1).toString();
     }
 }
